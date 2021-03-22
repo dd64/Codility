@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-str = givenString;
+str = S;
 for(int k=1;k<=str.length();k++){
     for(int i=0;i<str.length()-k+1;i++){
         Set<Character> lowerSet = new HashSet<>();
